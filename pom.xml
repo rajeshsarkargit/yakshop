@@ -49,13 +49,13 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-		<!--<repository>
-			<id>deployment</id>
+		<repository>
+			<id>releases</id>
 			<name>Internal Release</name>
-			<url>localhost:8081/repository/</url>
-		</repository>-->
+			<url>http://localhost:8081/repository/yakshop-releases//</url>
+		</repository>
 		<snapshotRepository>
-			<id>deployment</id>
+			<id>snapshots</id>
 			<name>Internal Snapshop Release</name>
 			<url>http://localhost:8081/repository/yakshop-snapshot/</url>
 		</snapshotRepository>
