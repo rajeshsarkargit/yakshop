@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.yakshop</groupId>
 	<artifactId>yakshop</artifactId>
-	<version>1.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>yakshop</name>
 	<description>Demo project for yak shop</description>
 
@@ -55,10 +55,10 @@
 			<name>Internal Release</name>
 			<url>http://localhost:8081/repository/yakshop-releases//</url>
 		</repository>
-		<snapshotRepository>
+		<!--<snapshotRepository>
 			<id>snapshots</id>
 			<name>Internal Snapshot Release</name>
 			<url>http://localhost:8081/repository/yakshop-snapshot/</url>
-		</snapshotRepository>
+		</snapshotRepository>-->
 	</distributionManagement>
 </project>
