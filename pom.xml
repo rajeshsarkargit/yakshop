@@ -48,7 +48,8 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
+	<!--###### nexus repo ######  C:\Installed Softwares\nexus-3.15.2-01-win64\nexus-3.15.2-01\bin ## cmd ## nexus.exe /run   ######-->
+	<!--<distributionManagement>
 		<repository>
 			<id>releases</id>
 			<name>Internal Release</name>
@@ -56,8 +57,8 @@
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>Internal Snapshop Release</name>
+			<name>Internal Snapshot Release</name>
 			<url>http://localhost:8081/repository/yakshop-snapshot/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 </project>
