@@ -10,7 +10,10 @@
 	</parent>
 	<groupId>com.yakshop</groupId>
 	<artifactId>yakshop</artifactId>
+	<version>1.0</version>
+<!--
 	<version>0.0.1-SNAPSHOT</version>
+-->
 	<name>yakshop</name>
 	<description>Demo project for yak shop</description>
 
